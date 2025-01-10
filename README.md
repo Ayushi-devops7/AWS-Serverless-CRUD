@@ -71,21 +71,21 @@ The application is built around the following core components:
 ### 4️⃣ Set Up API Gateway
 1. Navigate to API Gateway in the AWS Management Console.
    - **Create a REST API** and define resources for each CRUD operation:
-   - 1./create → POST → Link to Create Lambda
-   - 2./read/{id} → GET → Link to Read Lambda
-   - 3./update → PUT → Link to Update Lambda
-   - 4./delete/{id} → DELETE → Link to Delete Lambda
-2.Enable CORS for the API Gateway methods.
+   - /create → POST → Link to Create Lambda
+   - /read/{id} → GET → Link to Read Lambda
+   - /update → PUT → Link to Update Lambda
+   - /delete/{id} → DELETE → Link to Delete Lambda
+2. Enable CORS for the API Gateway methods.
 
 ### 5️⃣ Test the Endpoints
-  1. Deploy the API to a Stage (prod).
-  2.Use tools like Postman to send HTTP requests to the API endpoints.
-  3.Validate data in the DynamoDB table using the AWS Management Console.
+ - 1. Deploy the API to a Stage (prod).
+ - 2.Use tools like Postman to send HTTP requests to the API endpoints.
+ - 3.Validate data in the DynamoDB table using the AWS Management Console.
 
 ### 6️⃣ Monitor and Optimize
-  1.Enable CloudWatch Logs for each Lambda function to monitor execution.
-  2.Optimize Lambda functions by reducing memory usage and execution time.
-  3.Implement retries and error handling for better reliability.
+-  1.Enable CloudWatch Logs for each Lambda function to monitor execution.
+-  2.Optimize Lambda functions by reducing memory usage and execution time.
+-  3.Implement retries and error handling for better reliability.
 
 ### 🧩 Best Practices
   1.Use IAM roles and policies to securely access AWS resources.
