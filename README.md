@@ -1,5 +1,3 @@
-# AWS-Serverless-CRUD 
-
 ## Serverless CRUD Application on AWS 🌩️  
 
 ## 🚀 Project Overview  
@@ -78,20 +76,20 @@ The application is built around the following core components:
 2. Enable CORS for the API Gateway methods.
 
 ### 5️⃣ Test the Endpoints
- - 1. Deploy the API to a Stage (prod).
- - 2.Use tools like Postman to send HTTP requests to the API endpoints.
- - 3.Validate data in the DynamoDB table using the AWS Management Console.
+ - Deploy the API to a Stage (prod).
+ - Use tools like Postman to send HTTP requests to the API endpoints.
+ - Validate data in the DynamoDB table using the AWS Management Console.
 
 ### 6️⃣ Monitor and Optimize
--  1.Enable CloudWatch Logs for each Lambda function to monitor execution.
--  2.Optimize Lambda functions by reducing memory usage and execution time.
--  3.Implement retries and error handling for better reliability.
+- Enable CloudWatch Logs for each Lambda function to monitor execution.
+- Optimize Lambda functions by reducing memory usage and execution time.
+- Implement retries and error handling for better reliability.
 
 ### 🧩 Best Practices
-  1.Use IAM roles and policies to securely access AWS resources.
-  2.Enable CloudWatch logging to monitor application performance.
-  3.Optimize Lambda functions for performance and cost efficiency.
-  4.Implement input validation to ensure data integrity.
+  - Use IAM roles and policies to securely access AWS resources.
+  - Enable CloudWatch logging to monitor application performance.
+  - Optimize Lambda functions for performance and cost efficiency.
+  - Implement input validation to ensure data integrity.
 
 ### 🌟 Outcome
 This project highlights the efficiency of serverless architectures for modern application development. It’s a step forward in building reliable, scalable, and cost-efficient solutions on the cloud.
