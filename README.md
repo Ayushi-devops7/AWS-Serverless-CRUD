@@ -1,11 +1,11 @@
-## Serverless CRUD Application on AWS 🌩️  
+## Serverless CRUD Application on AWS 
 
 ## 🚀 Project Overview  
 This project demonstrates the creation of a fully functional **CRUD application** using AWS's serverless services. The application leverages **API Gateway**, **AWS Lambda**, and **DynamoDB** to showcase the potential of serverless architecture for building scalable and cost-effective solutions.  
 
 ---
 
-## 🏆 Key Highlights  
+## Key Highlights  
 
 - **RESTful API Implementation**: Utilized **API Gateway** to handle HTTP requests seamlessly, ensuring smooth client-server communication.  
 - **Serverless Processing**: Incorporated **AWS Lambda** to execute backend logic in response to triggers from API Gateway.  
@@ -14,7 +14,7 @@ This project demonstrates the creation of a fully functional **CRUD application*
 
 ---
 
-## ⚙️ Architecture  
+## Architecture  
 The application is built around the following core components:  
 
 1. **API Gateway**: Acts as the entry point for HTTP requests and routes them to the appropriate Lambda functions.  
@@ -23,7 +23,7 @@ The application is built around the following core components:
 
 ---
 
-## 💻 Features  
+## Features  
 
 - **Create**: Add new records to the DynamoDB database.  
 - **Read**: Retrieve existing records via API requests.  
@@ -32,7 +32,7 @@ The application is built around the following core components:
 
 ---
 
-## 🛠️ Technologies Used  
+## Technologies Used  
 
 - **Amazon API Gateway**  
 - **AWS Lambda**  
@@ -41,9 +41,9 @@ The application is built around the following core components:
 
 ---
 
-## 📚 How to Create This Project  
+## How to Create This Project  
 
-### 1️⃣ **Setup Your AWS Environment**  
+### **Setup Your AWS Environment**  
 1. **Create an AWS Account** if you don’t already have one.  
 2. Use the AWS Management Console to access services.  
 
@@ -93,7 +93,7 @@ The application is built around the following core components:
 
 ---
 
-### 🧩 Best Practices
+### Best Practices
   - Use IAM roles and policies to securely access AWS resources.
   - Enable CloudWatch logging to monitor application performance.
   - Optimize Lambda functions for performance and cost efficiency.
@@ -101,10 +101,10 @@ The application is built around the following core components:
 
 ---
 
-### 🌟 Outcome
+### Outcome
 This project highlights the efficiency of serverless architectures for modern application development. It’s a step forward in building reliable, scalable, and cost-efficient solutions on the cloud.
 
-### 📬 Contact
+### Contact
 If you have any questions or would like to discuss this project further, feel free to connect with me on https://www.linkedin.com/in/ayushi-agrawal-2636b9266 or email me at ayushiagrawal571@gmail.com.
 
 Happy Coding! 😊
