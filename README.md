@@ -64,7 +64,9 @@ The application is built around the following core components:
    - **Create Item**: Insert data into DynamoDB.  
    - **Read Item**: Fetch data based on the `id`.  
    - **Update Item**: Modify existing data.  
-   - **Delete Item**: Remove data based on the `id`.  
+   - **Delete Item**: Remove data based on the `id`.
+   -  
+---
 
 ### 4️⃣ Set Up API Gateway
 1. Navigate to API Gateway in the AWS Management Console.
@@ -74,22 +76,30 @@ The application is built around the following core components:
    - /update → PUT → Link to Update Lambda
    - /delete/{id} → DELETE → Link to Delete Lambda
 2. Enable CORS for the API Gateway methods.
+   
+---
 
 ### 5️⃣ Test the Endpoints
  - Deploy the API to a Stage (prod).
  - Use tools like Postman to send HTTP requests to the API endpoints.
  - Validate data in the DynamoDB table using the AWS Management Console.
 
+---
+
 ### 6️⃣ Monitor and Optimize
 - Enable CloudWatch Logs for each Lambda function to monitor execution.
 - Optimize Lambda functions by reducing memory usage and execution time.
 - Implement retries and error handling for better reliability.
+
+---
 
 ### 🧩 Best Practices
   - Use IAM roles and policies to securely access AWS resources.
   - Enable CloudWatch logging to monitor application performance.
   - Optimize Lambda functions for performance and cost efficiency.
   - Implement input validation to ensure data integrity.
+
+---
 
 ### 🌟 Outcome
 This project highlights the efficiency of serverless architectures for modern application development. It’s a step forward in building reliable, scalable, and cost-efficient solutions on the cloud.
