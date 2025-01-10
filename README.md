@@ -71,10 +71,10 @@ The application is built around the following core components:
 ### 4️⃣ Set Up API Gateway
 1. Navigate to API Gateway in the AWS Management Console.
    - **Create a REST API** and define resources for each CRUD operation:
-   -1./create → POST → Link to Create Lambda
-   -2./read/{id} → GET → Link to Read Lambda
-   -3./update → PUT → Link to Update Lambda
-   -4./delete/{id} → DELETE → Link to Delete Lambda
+   - 1./create → POST → Link to Create Lambda
+   - 2./read/{id} → GET → Link to Read Lambda
+   - 3./update → PUT → Link to Update Lambda
+   - 4./delete/{id} → DELETE → Link to Delete Lambda
 2.Enable CORS for the API Gateway methods.
 
 ### 5️⃣ Test the Endpoints
