@@ -1,6 +1,6 @@
 ## Serverless CRUD Application on AWS 
 
-## 🚀 Project Overview  
+## Project Overview  
 This project demonstrates the creation of a fully functional **CRUD application** using AWS's serverless services. The application leverages **API Gateway**, **AWS Lambda**, and **DynamoDB** to showcase the potential of serverless architecture for building scalable and cost-effective solutions.  
 
 ---
@@ -49,7 +49,7 @@ The application is built around the following core components:
 
 ---
 
-### 2️⃣ **Create the DynamoDB Table**  
+### 2️ **Create the DynamoDB Table**  
 1. Navigate to the **DynamoDB** service in the AWS Management Console.  
 2. Click **Create Table**.  
 3. Provide the following details:  
@@ -59,7 +59,7 @@ The application is built around the following core components:
 
 ---
 
-### 3️⃣ **Develop Lambda Functions**  
+### 3️ **Develop Lambda Functions**  
 1. Write Lambda functions for each CRUD operation:  
    - **Create Item**: Insert data into DynamoDB.  
    - **Read Item**: Fetch data based on the `id`.  
@@ -68,7 +68,7 @@ The application is built around the following core components:
    -  
 ---
 
-### 4️⃣ Set Up API Gateway
+### 4️ Set Up API Gateway
 1. Navigate to API Gateway in the AWS Management Console.
    - **Create a REST API** and define resources for each CRUD operation:
    - /create → POST → Link to Create Lambda
@@ -79,14 +79,14 @@ The application is built around the following core components:
    
 ---
 
-### 5️⃣ Test the Endpoints
+### 5️ Test the Endpoints
  - Deploy the API to a Stage (prod).
  - Use tools like Postman to send HTTP requests to the API endpoints.
  - Validate data in the DynamoDB table using the AWS Management Console.
 
 ---
 
-### 6️⃣ Monitor and Optimize
+### 6️ Monitor and Optimize
 - Enable CloudWatch Logs for each Lambda function to monitor execution.
 - Optimize Lambda functions by reducing memory usage and execution time.
 - Implement retries and error handling for better reliability.
